@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/customView"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:descendantFocusability="blocksDescendants"
+    android:columnCount="2"
+    android:rowCount="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/customText"
+        android:textStyle="bold"
+        android:ems="15"
+        android:textSize="18dp"
+        android:layout_column="0"
+
+        />
+    <Button
+        android:id="@+id/removeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_remove_circle_outline_black_24dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_column="1"/>
+</GridLayout>

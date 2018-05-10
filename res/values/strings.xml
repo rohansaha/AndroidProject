@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="createReminder">Create Reminder</string>
+    <string name="createTask">Create Task</string>
+    <string name="reminderTitle">Reminder</string>
+    <string name="addTask">Add</string>
+    <string name="updateTask">Update</string>
+    <string name="addReminder">Add Reminder</string>
+    <string name="dueDate">Date</string>
+    <string name="location">Location</string>
+    <string name="findLocation">Find Location</string>
+    <string name="proximityRadius">Radius (Mile) : </string>
+    <string name="google_maps_key">AIzaSyDY5lYYY9I0j7xT8di8WqQVCijrCcTWrJc</string>
+</resources>
